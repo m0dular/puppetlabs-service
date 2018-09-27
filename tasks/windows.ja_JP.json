@@ -4,11 +4,11 @@
   "parameters": {
     "action": {
       "description": "サービスで実行する操作(開始、停止、再起動、ステータス)",
-      "type": "Enum[開始、停止、再起動、ステータス]"
+      "type": "Enum[start, stop, restart, status]"
     },
     "name": {
       "description": "操作を実行するWindowsサービスのショートネーム。",
-      "type": "文字列[1]"
+      "type": "String[1]"
     }
   }
 }

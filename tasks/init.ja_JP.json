@@ -4,15 +4,15 @@
   "parameters": {
     "action": {
       "description": "サービスで実行する操作(開始、停止、再起動、有効化、無効化、ステータス)",
-      "type": "Enum[開始、停止、再起動、有効化、無効化、ステータス]"
+      "type": "Enum[start, stop, restart, enable, disable, status]"
     },
     "name": {
       "description": "操作を実行するサービスの名前。",
-      "type": "文字列[1]"
+      "type": "String[1]"
     },
     "provider": {
       "description": "サービスの管理または確認に使用するプロバイダ。デフォルトはシステムサービスマネージャ",
-      "type": "オプション[文字列[1]]"
+      "type": "Optional[String[1]]"
     }
   }
 }
